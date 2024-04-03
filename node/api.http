@@ -1,0 +1,8 @@
+POST http://localhost:3333/events
+  Content-Type: application/json
+
+  {
+    "title" : "Bored Event",
+    "description" : "Come see (or not, you know) the most bored things you've never ever seen before",
+    "maximumAttendees" : null
+  }
